@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOOM Fighter</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/home.css" />
+    <link rel="stylesheet" href="~/css/start.css" />
+    <link rel="stylesheet" href="~/css/winner.css" />
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img id="imageId" src="~/media/images/play.png" onclick="ctrlMusic()" class="music-button"/>
+            <audio controls id="music">
+                <source src="~/media/music/doom-ost-bis.mp3" type="audio/mpeg">
+            </audio> 
+            <img alt="Logo" class="logo" src="~/media/images/Logo.png"/>
+        </div>
+    </header>
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/music.js" asp-append-version="true"></script>
+    <script src="~/js/start.js" asp-append-version="true"></script>
+    <script src="~/js/tournament.js" asp-append-version="true"></script>
+    <script src="~/js/card.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

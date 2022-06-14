@@ -1,0 +1,36 @@
+﻿@model Projeto_Final.Models.Fighter.Fighter
+
+@{
+    ViewData["Title"] = "Start";
+}
+
+<div class="align-div">
+    <div class="align-div">
+        <img alt="O Vencedor foi..." class="winner-text-img" src="~/media/images/winner.png"/>
+    </div>
+<div class="winner-card-div">
+    <div class=".f-card-winner" id="@Model.Id" onclick="getId(@Model.Id)">
+        <div class="c-cards">
+            <p class="f-name">@Model.Name</p>
+            <p class="f-age">Idade: @(Model.Age)</p>
+            <p class="f-total-fights">Lutas: @(Model.TotalFights)</p>
+            <p class="f-martial-arts">Artes M.: @(Model.MartialArts)</p>
+            <p class="f-victories">Vitórias: @(Model.Victories)</p>
+            <p class="f-defeats">Derrotas: @(Model.Defeats)</p>
+            <div class="background-card">
+                <img src="~/media/fighters/@(Model.Name).png" alt="@Model.Name" class="g-cards"/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="align-div">
+    <a asp-controller="Home" asp-action="Index" class="align-div">
+        <img alt="Voltar ao início" class="return-start" src="~/media/images/return.png"/>
+    </a>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="~/js/winner.js" asp-append-version="true"></script>
+<script>
+    cardWinnerAppear();
+</script>

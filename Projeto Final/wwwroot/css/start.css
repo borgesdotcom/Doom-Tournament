@@ -1,0 +1,175 @@
+﻿body {
+}
+
+*:focus {
+    outline: none;
+}
+
+
+.align-div {
+    opacity: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.tip-text {
+    width: 70%;
+    max-width: 400px;
+    min-width: 300px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: block;
+    
+}
+
+.f-cards {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transition: filter .3s;
+    display: flex;
+    height: 300px;
+    width: 200px;
+}
+
+    .f-cards:hover {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        cursor: pointer;
+    }
+
+.fighter-cards-div {
+    width: 1150px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    justify-content: center;
+    justify-items: center;
+}
+
+.c-cards {
+    background: url(/media/images/hud.png);
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    -webkit-box-shadow: 8px 9px 20px -6px rgba(0,0,0,0.67);
+    -moz-box-shadow: 8px 9px 20px -6px rgba(0,0,0,0.67);
+    box-shadow: 8px 9px 20px -6px rgba(0,0,0,0.67);
+    border: 2px groove #A4A4A4;
+}
+
+.g-cards {
+    height: 250px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #eead2d);
+}
+
+.background-card {
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+    height: 300px;
+    width: 200px;
+    background: url(/media/images/wood-texture.jpg);
+    background-size: 200px;
+    border-radius: 10px;
+}
+
+.f-name {
+    font-size: 13px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 20px;
+    color: #fff;
+    z-index: 1;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.f-age {
+    font-size: 10px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 255px;
+    color: #fff;
+    z-index: 1;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.f-total-fights {
+    font-size: 10px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 250px;
+    color: #fff;
+    z-index: 1;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.f-martial-arts {
+    font-size: 10px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 135px;
+    margin-top: 255px;
+    color: #fff;
+    z-index: 1;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.f-victories {
+    font-size: 10px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 270px;
+    color: #fff;
+    z-index: 1;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.f-defeats {
+    font-size: 10px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 135px;
+    margin-top: 270px;
+    color: #fff;
+    z-index: 1;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.button-img {
+    outline: none;
+}
+
+.start-button-text {
+    outline: none;
+    border: none;
+    background: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: all .1s;
+}
+
+    .start-button-text:hover {
+        outline: none;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .start-button-text:active {
+        outline: none;
+    }
+
+    .start-button-text:focus {
+        outline: none;
+    }

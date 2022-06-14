@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container"> 
+    <a asp-controller="Tournament" asp-action="Start"><img class="start-button" alt="Iniciar" src="~/media/images/strife-small-start.png"/></a>
+    <audio controls id="startSound">
+        <source src="~/media/music/floppydisk.mp3" type="audio/mpeg">
+    </audio>
+    <video autoplay muted loop id="videoBackground">
+        <source src="media/video/home_background.mp4" type="video/mp4">
+    </video>
+    </div>

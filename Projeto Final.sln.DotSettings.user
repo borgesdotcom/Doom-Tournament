@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/Environment/ExcludedFiles/FilesAndFoldersToSkip/=9102E253_002DFAF4_002D4343_002D943C_002DFA9F22F15E3A_002Fd_003Awwwroot_002Fd_003Alib_002Fd_003Ajquery_002Fd_003Adist_002Ff_003Ajquery_002Ejs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/ExcludedFiles/FilesAndFoldersToSkip/=9102E253_002DFAF4_002D4343_002D943C_002DFA9F22F15E3A_002Fd_003Awwwroot_002Fd_003Alib_002Fd_003Abootstrap_002Fd_003Adist_002Fd_003Ajs_002Ff_003Abootstrap_002Ebundle_002Ejs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/ExcludedFiles/FilesAndFoldersToSkip/=9102E253_002DFAF4_002D4343_002D943C_002DFA9F22F15E3A_002Fd_003Awwwroot_002Fd_003Alib_002Fd_003Abootstrap_002Fd_003Adist_002Fd_003Ajs_002Ff_003Abootstrap_002Ejs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/ExcludedFiles/FilesAndFoldersToSkip/=9102E253_002DFAF4_002D4343_002D943C_002DFA9F22F15E3A_002Fd_003Awwwroot_002Fd_003Alib_002Fd_003Ajquery_002Dvalidation_002Fd_003Adist_002Ff_003Aadditional_002Dmethods_002Ejs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/ExcludedFiles/FilesAndFoldersToSkip/=9102E253_002DFAF4_002D4343_002D943C_002DFA9F22F15E3A_002Fd_003Awwwroot_002Fd_003Alib_002Fd_003Ajquery_002Dvalidation_002Fd_003Adist_002Ff_003Ajquery_002Evalidate_002Ejs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/ExcludedFiles/FilesAndFoldersToSkip/=9102E253_002DFAF4_002D4343_002D943C_002DFA9F22F15E3A_002Fd_003Awwwroot_002Fd_003Alib_002Fd_003Ajquery_002Dvalidation_002Dunobtrusive_002Ff_003Ajquery_002Evalidate_002Eunobtrusive_002Ejs/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4f65efb8_002Dd45a_002D4542_002D9e11_002Da4562859d957/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestStart" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::9102E253-FAF4-4343-943C-FA9F22F15E3A::.NETCoreApp,Version=v3.1::Projeto_Final.Tests.TournamentControllerTest.TestStart&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

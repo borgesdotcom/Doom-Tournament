@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Projeto_Final.Models.Fighter.Fighter>
+
+@{
+    ViewData["Title"] = "Start";
+}
+<div class="align-div">
+    <img src="~/media/images/press-start.png" alt="Texto" class="tip-text"/>
+</div>
+<div class="align-div">
+    <button type="button" onclick="startTournament()" class="start-button-text">
+        <img src="~/media/images/start.png" alt="Iniciar" src="button-img"/>
+    </button>
+</div>
+<div class="align-div">
+    <div class="fighter-cards-div">
+        @foreach (var fighter in Model)
+        {
+            <div class="f-cards" id="@fighter.Id" onclick="getId(@fighter.Id)">
+                <div class="c-cards">
+                    <p class="f-name">@fighter.Name</p>
+                    <p class="f-age">Idade: @(fighter.Age)</p>
+                    <p class="f-total-fights">Lutas: @(fighter.TotalFights)</p>
+                    <p class="f-martial-arts">Artes M.: @(fighter.MartialArts)</p>
+                    <p class="f-victories">Vitórias: @(fighter.Victories)</p>
+                    <p class="f-defeats">Derrotas: @(fighter.Defeats)</p>
+                    <div class="background-card">
+                        <img src="~/media/fighters/@(fighter.Name).png" alt="@fighter.Name" class="g-cards"/>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="~/js/card.js" asp-append-version="true"></script>
+<script>
+    cardAppear();
+</script>

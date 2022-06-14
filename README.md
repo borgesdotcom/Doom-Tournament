@@ -4,7 +4,7 @@ para conclusão desse simulador de torneio, foi feita uma inspiração no jogo *
 
   
 
-![Logo](https://sbs.t-systems.com.br/gitlab/mercedes/collab/estagio/heitor-correia/projeto-final-ultimas-semanas/-/raw/develop/Fighter/Projeto%20Final/wwwroot/media/Logo.png?)
+![Logo](/borgesdotcom/Doom-Tournament/blob/main/Projeto%20Final/wwwroot/media/images/Logo.png?raw=true)
 
   
 
@@ -45,7 +45,7 @@ O trabalho consiste em um torneio de luta onde 16 personagens disputam um mata-a
  
  1. Faça o clone do projeto
  2. Abra-o na sua IDE
- 3. Acesse o arquivo appsettings.json e altere no local designado com a string de conexão do seu banco local![enter image description here](https://sbs.t-systems.com.br/gitlab/mercedes/collab/estagio/heitor-correia/projeto-final-ultimas-semanas/-/raw/develop/Images/DefaultConnection.png)
+ 3. Acesse o arquivo appsettings.json e altere no local designado com a string de conexão do seu banco local
  4. No console da aplicação, execute o seguinte comando para a criação do banco de dados e armazenamento dos dados do torneio
  `update-database`
  5. Após isso, basta iniciar a aplicação que todos os dados base serão gerados automaticamente, e então é só dar início ao torneio!

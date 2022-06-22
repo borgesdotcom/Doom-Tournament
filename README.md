@@ -1,11 +1,6 @@
 # Projeto Final - Ultimate DOOM Fighter
 
 para conclusão desse simulador de torneio, foi feita uma inspiração no jogo *DOOM* originalmente lançado em 1994 e conhecido mundialmente como um dos primeiros estilos FPS de sucesso.
-
-  
-
-![Logo](/borgesdotcom/Doom-Tournament/blob/main/Projeto%20Final/wwwroot/media/images/Logo.png?raw=true)
-
   
 
 ### Resumo
